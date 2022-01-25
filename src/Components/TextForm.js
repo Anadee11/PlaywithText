@@ -50,12 +50,12 @@ export default function TextForm(props) {
                 <div className="mb-3">
                 <textarea className="form-control" value={text} onChange={handleOnchange}id="myBox" rows="10" placeholder="Put your content here" style={{backgroundColor:props.mode==='light'?'white':'black',color:props.mode==='light'?'black':'white'}}></textarea>
                 </div>
-                <button disabled={text.length===0}className={props.mode==='light'?"btn btn-primary mx-2 my-2 ":"btn btn-secondary mx-2"} onClick={handleUpClick}>Upper Case</button>
-                <button disabled={text.length===0} className={props.mode==='light'?"btn btn-primary mx-2 my-2":"btn btn-secondary mx-2"} onClick={handleLoClick}>Lower Case</button>
-                <button disabled={text.length===0} className={props.mode==='light'?"btn btn-primary mx-2 my-2":"btn btn-secondary mx-2"} onClick={handleCapitalClick}>Capital Case</button>
-                <button disabled={text.length===0} className={props.mode==='light'?"btn btn-primary mx-2 my-2":"btn btn-secondary mx-2"} onClick={handleExtraSpaces}>Remove Extra Spaces</button>
-                <button disabled={text.length===0} className={props.mode==='light'?"btn btn-primary mx-2 my-2":"btn btn-secondary mx-2"} onClick={handleCopy}>Copy</button>
-                <button disabled={text.length===0} className={props.mode==='light'?"btn btn-primary mx-2 my-2":"btn btn-secondary mx-2"} onClick={handleClearClick}>Clear</button>
+                <button disabled={text.length===0}className={props.mode==='light'?"btn btn-primary mx-2 my-2 ":"btn btn-secondary mx-2 my-2"} onClick={handleUpClick}>Upper Case</button>
+                <button disabled={text.length===0} className={props.mode==='light'?"btn btn-primary mx-2 my-2":"btn btn-secondary mx-2 my-2"} onClick={handleLoClick}>Lower Case</button>
+                <button disabled={text.length===0} className={props.mode==='light'?"btn btn-primary mx-2 my-2":"btn btn-secondary mx-2 my-2"} onClick={handleCapitalClick}>Capital Case</button>
+                <button disabled={text.length===0} className={props.mode==='light'?"btn btn-primary mx-2 my-2":"btn btn-secondary mx-2 my-2"} onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+                <button disabled={text.length===0} className={props.mode==='light'?"btn btn-primary mx-2 my-2":"btn btn-secondary mx-2 my-2"} onClick={handleCopy}>Copy</button>
+                <button disabled={text.length===0} className={props.mode==='light'?"btn btn-primary mx-2 my-2":"btn btn-secondary mx-2 my-2"} onClick={handleClearClick}>Clear</button>
         </div>
         <div className="container my-5" style={{color:props.mode==='light'?'black':'white'}}>
             <h3>Text Analysis</h3>
