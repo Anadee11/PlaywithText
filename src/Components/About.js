@@ -28,7 +28,7 @@ export default function About(props) {
         
     return (
         <>
-            <div className="Welcome" style={{color:props.mode==='light'?'black':'white',backgroundColor:props.mode==='light'?'white':'black'}}>
+            <div className="Welcome my-5" style={{color:props.mode==='light'?'black':'white',backgroundColor:props.mode==='light'?'white':'black'}}>
                 <h2>Welcome to PlaywithText</h2>
                 <p>A very handy online text tool which helps to analyze your text. It also let's you perform many operations such as converting text to Uppercase, Lowercase, Capitalizedcase </p>
             
